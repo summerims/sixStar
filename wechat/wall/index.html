@@ -1,0 +1,97 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>微信弹幕技术</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+			<link type="text/css" rel="stylesheet" href="css/sixstar.css"></link>
+	</head>
+<body>
+	
+
+<!--screen start-->
+	<div class="screen">
+	<!--s_box start-->
+		<div class="s_show">
+				
+					<div class='message'>
+						<img class='headimg' src='http://wx.qlogo.cn/mmopen/qHXXejEZEtibfRgFY4diczzNCk9lOnOlOy1Kia0icnTVFzzyQEnke7Zv1HRjQLd5xlYicstPDISJTs3E0zqtvqsic01GylYGDgqaIy/64'/>
+						<span>Peter（长沙）</span>
+						<p>叼的不行的弹幕墙</p>
+					</div>
+					
+		</div>
+	</div>
+	
+	<div class="send">
+			<div class="s_fiter"></div>
+			<div class="s_con">
+				<input type="text" class="s_txt" /><input type="button" id="send_sub" value="发表评论" class="s_sub" />
+			</div>
+		</div>
+
+
+<!--引入jQuery官方类库-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(function(){
+		init_screen();
+	});
+	// 初始化弹幕
+	function init_screen(){
+		$(".s_show").find("div").fadeIn(500);
+
+		var _top = 0;
+		$(".s_show").find("div").each(function(){
+			var _left = $(window).width()-$(this).width()-Math.random()*150;
+			var _height = $(window).height();
+			_top = _top + 76;//修改每一个弹幕的位置
+			if(_top >= _height - 150){
+				  _top = 76;
+			}
+			// 初始化文字的位置
+			$(this).css({left:_left,top:_top,color:getRandomColor()});
+			
+			var time=19000-(Math.random()*6000);
+			// 设置动画，然后清除当前的文本
+			$(this).animate({left:"-"+_left+"px"},time,function(){
+				$(this).remove();
+			});
+		});
+	}
+
+	//发送信息
+	$("#send_sub").click(function(){
+			var text = $(".s_txt").val();
+			var _label = $("<div class='magictime openUpLeftRetourn'>"+text+"</div>");
+			$(".s_show").append(_label);
+			//foolishIn,swap,openUpLeftRetourn,openUplef,twisterInUp
+			init_screen();
+		});
+
+
+    //随机获取颜色值
+	function getRandomColor(){
+		return '#' + (function(h) {
+			return new Array(7 - h.length).join("0") + h
+		})((Math.random() * 0x1000000 << 0).toString(16))	
+	}
+	/*
+	//通过get获取到后台的数据
+	function getLine(){
+			$.get('list.php',function(data){
+				$('.s_show').html(data);
+				init_screen(); //得到的内容插入到html页面当中来
+			});
+	}
+
+	//使用定时器循环访问页面
+    setInterval("getLine()",10000); //循环调用数据库信息  定时器
+	*/
+</script>
+
+</body>
+</html>

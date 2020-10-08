@@ -1,0 +1,57 @@
+		*{margin:0;padding:0;}
+   
+		 html,body{height:100%;}
+    	 body{	
+				background:url("../img/bg.jpg") no-repeat center center;
+			    background-size:cover;
+			    font-size:12px;
+			    font-family:"微软雅黑";
+			    color:#666;
+		}
+		.screen  .s_show{
+			position:relative;
+			z-index:3;
+		}
+		.screen .s_show div{
+			position:absolute;
+			font-size:22px;
+			display:none;
+			top:76px;
+			left:0;
+			line-height:36px;}
+			
+		.headimg{
+		 	display:inline-block; 
+		 	width:50px;
+		 	border-radius:50%;
+		 	vertical-align:middle; /*设置元素的垂直对齐方式*/
+		 }
+
+		.message span{
+			vertical-align:top; 
+		 	font-size:18px;
+			font-family:"微软雅黑";
+			color:#000;
+		 }
+		.message p{
+			font-size:20px;
+			margin-top:-20px; 
+			margin-left:55px;
+		}
+
+		img {transition:0.4s all;} 
+		
+		img:hover {transform:rotate(360deg);
+		}
+		 .send{width:100%;height:76px;position:absolute;bottom:0;left:0;}
+		 .send .s_fiter{width:100%;height:76px;background:#000;position:absolute;bottom:0;left:0;
+				opacity:0.8;filter:alpha(opacity=80);z-index:1}
+		
+		.send .s_con{width:100%;height:76px;position:absolute;bottom:0;left:0;z-index:2;
+			text-align:center;line-height:76px;}
+		 .send .s_con .s_txt{width:605px;height:36px;border:0;
+		border-radius: 3px 0 0 3px;font-size:16px;font-family:"微软雅黑"; color:#666;line-height:36px;}
+		 .send .s_con .s_sub{width:100px;height:37px;background:#65c33d;border:1px solid #5bba32;font-size:14px;font-family:"微软雅黑"; color:#fff;border-radius: 0 3px 3px 0;cursor: pointer;}
+		 .send .s_con .s_sub:hover{background:#3eaf0e;border-color: #329209;}
+		 .screen .s_show{position:relative;z-index:3;}
+		 .screen .s_show div{position:absolute;top:76;left:0;line-height:36px;font-size:22px;font-weight:500;} 

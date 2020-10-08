@@ -1,0 +1,53 @@
+2017-07-15 16:35:09
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500129029</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[abc]]></EventKey>
+<Ticket><![CDATA[gQGg8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybURBMzVLODNlYzExMDAwMGcwN0sAAgSVHmpZAwQAAAAA]]></Ticket>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:36:30
+J
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:36:33
+J
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:36:33
+J
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:41:21
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500129401</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[abc]]></EventKey>
+<Ticket><![CDATA[gQGg8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybURBMzVLODNlYzExMDAwMGcwN0sAAgSVHmpZAwQAAAAA]]></Ticket>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:41:55
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500129436</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[得到]]></Content>
+<MsgId>6443006867875482934</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:53:45
+J
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:53:55
+J
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-15 16:59:54
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwYMlH_EB6-SrA2FFER2S4aU]]></FromUserName>
+<CreateTime>1500130515</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6443011502145195443</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33

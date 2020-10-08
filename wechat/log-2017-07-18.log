@@ -1,0 +1,75 @@
+2017-07-18 14:40:30
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500381349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[abc]]></EventKey>
+<Ticket><![CDATA[gQGg8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybURBMzVLODNlYzExMDAwMGcwN0sAAgSVHmpZAwQAAAAA]]></Ticket>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 14:53:56
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500382155</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff92185282f6a37c&redirect_uri=http://peterxu.s1.natapp.cc/wechat/login.php&response_type=
+code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Content>
+<MsgId>6444092287715635683</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 14:54:23
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500382181</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff92185282f6a37c&redirect_uri=http://peterxu.s1.natapp.cc/wechat/login.php&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Content>
+<MsgId>6444092399384785381</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 14:55:57
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500382276</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff92185282f6a37c&redirect_uri=http%3A%2F%2Fpeterxu.s1.natapp.cc%2Fwechat%2Flogin.php&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Content>
+<MsgId>6444092807406678521</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 15:24:20
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500383978</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://peterxu.s1.natapp.cc/wechat/test.php]]></Content>
+<MsgId>6444100117441016699</MsgId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 17:09:25
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500390284</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 17:11:16
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwcx7XQ9jW4toPPNkVSGBhGI]]></FromUserName>
+<CreateTime>1500390394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33
+2017-07-18 17:11:20
+J<xml><ToUserName><![CDATA[gh_8e391fa20bad]]></ToUserName>
+<FromUserName><![CDATA[oSAOMwUrt2B_2-MUMorfvjDpoMSk]]></FromUserName>
+<CreateTime>1500390399</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://peterxu.s1.natapp.cc/wechat/wall/session.php]]></EventKey>
+<MenuId>488634457</MenuId>
+</xml>
+[E:\wamp\www\wechat\wx.php] line 33

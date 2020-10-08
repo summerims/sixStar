@@ -1,0 +1,7 @@
+﻿
+CREATE TABLE IF NOT EXISTS mass_users (
+id int UNSIGNED PRIMARY KEY auto_increment,
+openid varchar(255) NOT NULL DEFAULT '',
+it_time INT UNSIGNED NOT NULL DEFAULT 0 
+) ENGINE = MyISAM DEFAULT CHARSET = utf8;
+
